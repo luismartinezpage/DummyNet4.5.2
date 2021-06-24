@@ -1,0 +1,5 @@
+name: NET CI action
+
+on: [push]
+env:
+  APP_NAME: ${{ github.GITHUB_REPOSITORY }}
